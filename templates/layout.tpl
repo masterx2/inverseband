@@ -31,7 +31,7 @@
 {/block}
 </div>
 <div id="footer">
-    <p>Copyright © 2005-2017 inVerse. All rights reserved. Design by MasterX2.</p>
+    <p>Copyright © 2005-2017 inVerse. All rights reserved. Coded by MasterX2.</p>
 </div>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
