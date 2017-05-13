@@ -4,26 +4,28 @@ body {
     padding: 0;
     background: #000 url('../img/back.png') 0 50% no-repeat fixed;
 }
-.hidescroll {
-    overflow: hidden;
-}
+
 #menu > ul {
     text-align: center;
     list-style: none;
     padding: 0;
     margin: 0;
 }
+
 .clear {
     clear: both;
 }
+
 a {
     text-decoration: none;
     color: rgb(241, 241, 241);
 }
+
 p {
     margin: 0;
     color: white;
 }
+
 #intro {
     position: absolute;
     width: 815px;
@@ -33,21 +35,22 @@ p {
     margin-left: -407px;
     margin-top: -310px;
 }
+
 #logo > p {
     font-family: 'Carrois Gothic', sans-serif;
     font-size: 80%;
     margin: -4px 0px 8px 4px;
 }
- {
-}
+
 #menu {
     width: inherit;
     overflow: hidden;
     height: 40px;
     background: rgba(38, 51, 58, 0.51);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
-    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.25); */
+    /* border-top: 1px solid rgba(255, 255, 255, 0.25); */
 }
+
 #menu li {
     font-family: 'Carrois Gothic', sans-serif;
     display: inline-block;
@@ -59,61 +62,84 @@ p {
     -webkit-transition: background linear 0.4s;
     transition: background linear 0.4s;
 }
+
 #menu li:hover {
     cursor: pointer;
-    background: rgb(83, 110, 117);
+    background: rgb(255, 0, 61);
+    color: black;
     -webkit-transition: background linear 0.4s;
     transition: background linear 0.4s;
 }
+
 #menu a {
     display: block;
     width: 132px;
     height: 40px;
 }
+
 #wrap {
     width: 1000px;
     margin: auto;
     margin-top: 40px;
 }
+
 .title {
     color: white;
     font-size: 200%;
 }
-.entry > p {
+
+.post > span {
     margin-bottom: 20px;
     text-align: justify;
+    font-size: 90%;
+    display: block;
 }
+
+.entry span > p {
+    margin-bottom: 15px;
+}
+
 .entry ul {
     list-style: none;
     padding: 10px 0px;
     color: white;
 }
+
 #footer {
     margin-bottom: 20px;
 }
+
 #footer > p {
     color: rgb(138, 138, 138);
     font-size: 80%;
     text-align: center;
 }
+
 #insp {
-    float: left;
+    display: table-cell;
+    /* float: left; */
     width: 300px;
     padding: 20px;
 }
+
 #follow {
     padding: 20px;
+    display: table-cell;
 }
+
 #splash {
     background: url('../img/inverse_all.png') no-repeat;
     background-size: 100% auto;
     min-height: 747px;
+    margin-top: -30px;
 }
+
 #logo {
     margin: auto;
     margin-left: 30px;
     margin-top: 20px;
 }
+
 #menuholder {
     background: rgba(32, 54, 54, 0.32);
     overflow: hidden;
@@ -121,56 +147,109 @@ p {
     border-top: 1px solid rgb(126, 126, 126);
     border-bottom: 1px solid rgb(126, 126, 126);
 }
+
 .current {
     background: rgba(111, 118, 119, 0.27);
 }
+
 #insp li {
     line-height: 25px;
 }
+
 #insp li > a:hover {
     color: rgb(255, 0, 61);
 }
+
 #insp > p {
     font-size: 150%;
     color: rgb(199, 235, 255);
 }
+
 #follow > p {
     color: rgb(199, 235, 255);
     font-size: 150%;
     margin-bottom: 30px;
 }
+
 #photos img {
     margin: 8px;
     border: 1px solid rgb(167, 163, 163);
     width: 120px;
     height: 90px;
 }
+
 #photos {
     margin: auto;
 }
+
 #content {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 #videos {
     width: 920px;
     margin: auto;
 }
+
 .links {
     width: 350px;
     float: left;
     margin-right: 20px;
     background: rgba(49, 49, 49, 0.69);
 }
+
 .meta {
     font-size: 80%;
     margin-bottom: 10px;
     color: whitesmoke;
 }
+
 .entry {
     font-size: 90%;
+    margin-bottom: 20px;
 }
+
 .player {
-    float: right;
-    width: 630px;
+    /* text-align: center; */
+    /* display: table-cell; */
+    /* vertical-align: middle; */
+    height: 350px;
+}
+
+.post {
+    width: 1000px;
+    margin: auto;
+}
+
+.post > span p {
+    margin-bottom: 15px;
+}
+
+#menu li:hover a {
+    color: black;
+}
+
+.post.release {
+    margin-bottom: 60px;
+    border-bottom: 1px dotted white;
+}
+
+.svg-logo {
+    cursor: pointer;
+    max-width: 200px;
+    float: left;
+}
+
+.svg-logo path {
+    fill: white;
+    transition: fill linear 0.2s;
+}
+
+.svg-logo:hover path {
+    fill: red;
+}
+
+#links-block {
+    width: 200px;
 }
