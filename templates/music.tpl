@@ -2,6 +2,6 @@
 
 {block 'content'}
     {foreach $release as $item}
-        {macro.release2 release=$item}
+        {macro.release release=$item}
     {/foreach}
 {/block}
