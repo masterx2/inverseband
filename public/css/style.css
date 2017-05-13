@@ -209,10 +209,9 @@ p {
 }
 
 .player {
-    /* text-align: center; */
-    /* display: table-cell; */
-    /* vertical-align: middle; */
+    text-align: center;
     height: 350px;
+    position: relative;
 }
 
 .post {
@@ -258,4 +257,12 @@ p {
     text-align: center;
     color: white;
     padding-top: 30px;
+}
+
+.loader {
+    position: relative;
+    font-size: 30px;
+    color: white;
+    top: 150px;
+    z-index: 0;
 }
