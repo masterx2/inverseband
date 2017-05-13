@@ -1,0 +1,15 @@
+{
+    "name": "masterx2/inverseband",
+    "require": {
+        "silex/silex": "^2.1",
+        "mongodb/mongodb": "^1.1",
+        "fenom/fenom": "^2.11",
+        "hassankhan/config": "^0.10.0"
+    },
+    "authors": [
+        {
+            "name": "MasterX2",
+            "email": "true.masterx2@gmail.com"
+        }
+    ]
+}
