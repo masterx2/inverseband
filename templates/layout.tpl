@@ -12,7 +12,7 @@
 </head>
 <body>
 <div id="logo">
-    <a href="/"><img src="img/inVerse_Logo_Black.png" alt="Inverse Logo"></a>
+    <a class href="/"><img src="img/inVerse_Logo_Black.png" alt="Inverse Logo"></a>
     <p>The official band site</p>
 </div>
 <div id="menu" class="headmenu">
@@ -21,7 +21,6 @@
         <li><a href="/photo">Photo</a></li>
         <li><a href="/music">Music</a></li>
         <li><a href="/video">Video</a></li>
-        <li><a href="/links">Links</a></li>
         <li><a href="/contact">Contact</a></li>
     </ul>
 </div>
