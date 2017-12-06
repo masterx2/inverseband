@@ -42,14 +42,12 @@ $app['db'] = [
             "date" => 'November 2, 2017',
             "coverart" => 'suur_toll.jpg', // image in ~img/release/~
             "description" => '<p>Tracks 01-05 lyrics by Ilya Rybakov, music by INVERSE<br>
-Tracks 06-10 lyrics by Fjodor Krivosheev, music by SUUR TÕLL & MOTRAWANNASLEEP</p>
+    Tracks 06-10 lyrics by Fjodor Krivosheev, music by SUUR TÕLL & MOTRAWANNASLEEP</p>
+<br>
 <br>
 <p>Recorded live at Fish Fabrique Nouvelle 29.07.2017 by Vadim Shesterikov, Saint-Petersburg<br>
-Sound engineer irokeZZ<br>
-Special thanks to Olga Hodakovska<br>
-Mixed and mastered by Vladimir Nosyrev<br>
-Photo by Max Rassokhin<br>
-Artwork by Fjodor Krivosheev</p>',
+Sound engineer irokeZZ, special thanks to Olga Hodakovska, mixed and mastered by Vladimir Nosyrev<br>
+    Photo by Max Rassokhin, artwork by Fjodor Krivosheev</p>',
             "bandcamp" => [
                 "id" => 511191570, // album id
                 "url" => 'http://inversemusic.bandcamp.com/album/inverse-suur-t-ll', // full bandcamp album url
