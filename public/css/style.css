@@ -244,7 +244,7 @@ p {
 }
 
 .svg-logo:hover path {
-    fill: red;
+    fill: #4c6777;
 }
 
 #links-block {
