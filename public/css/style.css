@@ -66,7 +66,7 @@ p {
 
 #menu li:hover {
     cursor: pointer;
-    background: rgb(255, 0, 61);
+    background: #fff;
     color: black;
     -webkit-transition: background linear 0.4s;
     transition: background linear 0.4s;
