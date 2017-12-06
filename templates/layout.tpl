@@ -7,7 +7,7 @@
     <meta name="description" content="Inverse Band Official Site">
     <link href='http://fonts.googleapis.com/css?family=Anaheim|Simonetta|Carrois+Gothic|Archivo+Narrow|Iceland'
           rel='stylesheet' type='text/css'>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css?v2" rel="stylesheet" type="text/css">
     {block 'scripts'}{/block}
 </head>
 <body>
