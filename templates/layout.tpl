@@ -10,7 +10,7 @@
     <link href="css/style.css?v4" rel="stylesheet" type="text/css">
     {block 'scripts'}{/block}
 </head>
-<body{if $.server.REQUEST_URI === '/'} style="overflow: hidden"{/if}>
+<body{if $.server.REQUEST_URI === '/'} style="overflow: hidden;"{/if}>
 <div id="logo">
     <a class href="/"><img src="img/inVerse_Logo_Black.png" alt="Inverse Logo"></a>
     <p>The official band site</p>
